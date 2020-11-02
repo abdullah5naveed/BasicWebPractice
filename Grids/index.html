@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>CSS Grid</title>
+    <style>
+        .wrapper {
+            display: grid;
+            grid-template-columns: 50% 30% 20%;
+            /* grid-row-gap: 1em;
+            grid-column-gap: 1em; */
+            grid-gap: 1em;
+        }
+
+
+
+        .wrapper>div {
+            background: #eee;
+            padding: 1em;
+        }
+
+        .wrapper>div :nth-child(odd) {
+            background: #ddd;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo mollitia inventore non ab rem distinctio
+            asperiores
+            magni, omnis quia, debitis doloremque expedita praesentium, tempora doloribus cum ipsa! Inventore dolorum
+            quibusdam dolorem ipsum quia repudiandae, officiis tenetur sapiente necessitatibus soluta dolor
+            reprehenderit,
+            debitis exercitationem dolores excepturi obcaecati explicabo. Ullam magnam blanditiis libero in, quia
+            dolores
+            autem nemo reiciendis quod repudiandae eos ab doloribus nostrum fuga eius veritatis qui at tempore ducimus
+            saepe. Quasi debitis deserunt quae? Perferendis doloribus rerum nisi eaque.
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident voluptatibus officia cum est dolorem
+            cupiditate, dolor perspiciatis inventore sequi possimus quidem dicta aspernatur, ullam rerum culpa in, ad
+            voluptatem ex?
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo mollitia inventore non ab rem distinctio
+            asperiores
+            magni, omnis quia, debitis doloremque expedita praesentium, tempora doloribus cum ipsa! Inventore dolorum
+            quibusdam dolorem ipsum quia repudiandae, officiis tenetur sapiente necessitatibus soluta dolor
+            reprehenderit,
+            debitis exercitationem dolores excepturi obcaecati explicabo. Ullam magnam blanditiis libero in, quia
+            dolores
+            autem nemo reiciendis quod repudiandae eos ab doloribus nostrum fuga eius veritatis qui at tempore ducimus
+            saepe. Quasi debitis deserunt quae? Perferendis doloribus rerum nisi eaque.
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident voluptatibus officia cum est dolorem
+            cupiditate, dolor perspiciatis inventore sequi possimus quidem dicta aspernatur, ullam rerum culpa in, ad
+            voluptatem ex?
+        </div>
+    </div>
+</body>
+
+</html>
